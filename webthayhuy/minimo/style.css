@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.displex {
+  display: flex;
+}
+
+.marle60 {
+  margin-left: 60px;
+}
+
+/* Nav Header*/
+
+.main-menu {
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 2;
+  display: none;
+}
+
+header {
+  padding: 0 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-menu a:hover {
+  color: tomato;
+}
+
+.main-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+
+.main-menu li {
+  margin-left: 60px;
+}
+
+/* Main */
+
+.maincontent {
+}
+
+.banner {
+  width: 100%;
+  height: 500px;
+  padding: 100px;
+  background: url(https://previews.123rf.com/images/eugenepartyzan/eugenepartyzan1802/eugenepartyzan180200092/95717591-beautiful-girls-couple-hug-of-two-women-black-and-white-photo.jpg)
+    no-repeat center center/cover;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+/* Card Style  */
+
+.cardStyle {
+  margin: 10px 30px;
+}
+
+/* Signup Email Doan nay copy tren mang :v   */
+
+.home-newsletter {
+  padding: 80px 0;
+  background: rgb(143, 143, 143);
+}
+
+.home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+.home-newsletter .single h2 {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent;
+  border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #243c4f;
+}
+
+.home-newsletter .single .btn {
+  min-height: 50px;
+  border-radius: 0 20px 20px 0;
+  background: #243c4f;
+  color: #fff;
+}
+
+/* Load More */
+
+.load {
+  text-align: center;
+  padding: 15px;
+}
+
+#loadMore:hover {
+  background-color: #fff;
+  color: burlywood;
+}
+
+/* footer */
+
+footer {
+  background-color: darkgray;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer li {
+  margin-right: 60px;
+}
+
+.footer-inner {
+  padding-top: 15px;
+  text-align: center;
+  align-items: center;
+}
+
+/* Follow */
+
+.follow {
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px 0 10px;
+}
+
+.follow * {
+  margin-right: 5px;
+}
+
+@media (max-width: 700px) {
+  footer {
+    flex-direction: column;
+  }
+}
