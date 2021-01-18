@@ -29,8 +29,16 @@ h2 {
 p {
   margin: 10px 0;
 }
-img {
-  width: 100%;
+.mg20 {
+  margin: 20px;
+}
+.mgc {
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.tcr{
+  text-align: center;
 }
 .marleft10 {
   margin-left: calc(5% + 15px);
@@ -106,11 +114,20 @@ img {
 .showFeature {
   position: absolute;
   top: 810px;
-  left: 92px;
+  margin: auto;
   width: 1257px;
   height: 420px;
+  background-color: rgb(180, 168, 168);
+  padding: 20px;
+  border-radius: 5px;
 }
 .grid1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+main > h3 {
+  margin-top: 500px;
+}
+.plant {
+  justify-content: space-between;
 }
