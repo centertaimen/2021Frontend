@@ -114,7 +114,7 @@ p {
 .showFeature {
   position: absolute;
   top: 810px;
-  margin: auto;
+  left: auto;
   width: 1257px;
   height: 420px;
   background-color: rgb(180, 168, 168);
