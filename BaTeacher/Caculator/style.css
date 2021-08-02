@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  "Poppins",sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  background: wheat;
+}
+.caculator {
+  /* position: relative; */
+  display: grid;
+}
+.caculator .value {
+  grid-column: span 4;
+  height: 100px;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 18px;
+}
+.caculator span {
+  display: grid;
+user-select: none;
+  height: 60px;
+  color: white;
+  background: coral;
+  place-items: center;
+  border: 1px solid forestgreen;
+}
+.caculator span:active {
+  background: blue;
+  color: green;
+}
+.caculator span.clear {
+  /* grid-column: span 2; */
+
+  background: pink;
+}
+
+
+.caculator span.equal {
+ background:rgb(84, 84, 218);
+}
