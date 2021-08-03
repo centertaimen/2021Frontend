@@ -1,0 +1,6 @@
+*{
+    box-sizing: border-box;
+}
+.bigScreen{
+    max-width: 1170px;
+}
